@@ -1,0 +1,152 @@
+.navbar {
+   margin-bottom: 0;
+   border-radius: 0;
+   font-family: sans-serif;
+}
+
+.modal-content {
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#myCarousel{
+ margin-top: 50px;
+}
+
+.row-content{
+  margin: 50px auto;
+}
+
+.center{
+  text-align: center;
+}
+
+h2{
+  font-weight: bold;
+}
+
+h3{
+  font-weight: bold;
+}
+p{
+  font-weight: bold;
+}
+
+.content{
+  text-align: center;
+}
+.content-price{
+  text-align: center;
+  color: red;
+  font-style: italic;
+}
+
+.desc{
+  font-weight: bold;
+  text-align: justify;
+}
+
+.front{
+  text-align: justify;
+}
+
+.button{
+  color: #ffffff;
+}
+
+button{
+  margin-right: 22px;
+}
+.desc{
+  text-align: center;
+}
+#btnid{
+  margin: auto;
+  display: block;
+}
+
+#myModal{
+  margin-top: 50px;
+}
+
+#detail-product{
+  background-color: #212121;
+  border: none;
+  margin-left: 20px;
+}
+
+#detail-product:hover{
+  background-color: #424242;
+  border: none;
+}
+#cara-rental{
+  background-color: #212121;
+  border: none;
+}
+
+#cara-rental:hover{
+  background-color: #424242;
+  border: none;
+}
+
+.insta{
+  color: #212121;
+}
+a{
+  color: #616161;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #9E9E9E;
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(fonts/raleway-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(fonts/raleway-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+hr.style1{
+  border-top: 1px solid #8c8b8b;
+}
+
+  
+.panel-body{
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+.mid-panel-body{
+  background-color: #ffffff;
+  padding: 13px;
+  box-shadow: 1px 1px 1px #888888;
+}
+
+
+
+footer {
+  background-color: #101010;
+  padding: 18px;
+  color: #616161;
+  text-decoration: none;
+  font-family: sans-serif;
+}
