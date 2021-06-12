@@ -201,6 +201,11 @@
     $('#reservationdate').datetimepicker({
         format: 'L'
     });
+    //Date picker
+    $('#reservationdate2').datetimepicker({
+        format: 'L'
+    });
+    
 
     //Date and time picker
     $('#reservationdatetime').datetimepicker({ icons: { time: 'far fa-clock' } });
