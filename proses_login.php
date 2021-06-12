@@ -12,7 +12,7 @@ if (isset($_POST['login'])) {
 			session_start();
 			$_SESSION['nama'] = $row['nama'];
 			$_SESSION['login'] = true;
-			header('location: page/admin/index.php');
+			header('location: page/admin/index.php?page=sewa');
 		}
 	} else {
 		echo "

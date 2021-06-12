@@ -198,11 +198,10 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
+            <a href="index.php?page=sewa" class="nav-link">
               <i class="nav-icon fas fa-calendar-alt"></i>
               <p>
-                Calendar
-                <span class="badge badge-info right">2</span>
+                Data Sewa
               </p>
             </a>
           </li>
@@ -243,13 +242,7 @@
     <section class="content">
       <div class="container-fluid">
         <?php
-          session_start();
-          echo $_SESSION['nama'];
-
-          if($_SESSION['login'] !=true){
-              header('location:login.php');
-          }
-          include "config/pages.php";
+          include "../../config/pages.php";
         ?>
       </div><!--/. container-fluid -->
     </section>
