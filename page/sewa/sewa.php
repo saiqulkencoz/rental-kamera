@@ -42,8 +42,8 @@
                             <td> $data[kamera] </td>
                             <td> $data[tgl_pinjam] </td>
                             <td> $data[tgl_kembali] </td>
-                            <td><a href=sewa-edit.php?id=$data[id]>Edit</a> </td>
-                            <td><a href=sewa-delete.php?id=$data[id]>Delete</td>
+                            <td><a href=index.php?page=sewa-edit&id=$data[id]>Edit</a></td>
+                            <td><a href=index.php?page=sewa-delete&id=$data[id]>Delete</a></td>
                             </tr>
                             ";}
                             ?>
@@ -69,7 +69,7 @@
             </button>
         </div>
         <div class="modal-body">
-            <form>
+            <form action="../../page/sewa/sewa-proses.php" method="POST">
               <div class="form-group">
                 <label>ID</label>
                 <input class="form-control" type="text" name="id" placeholder="Masukkan ID">
@@ -80,7 +80,18 @@
               </div>
               <div class="form-group">
                 <label>Nama Kamera</label>
-                <input class="form-control" type="text" name="kamera" placeholder="Masukkan Nama Kamera">
+                <select class="form-control" name="kamera">
+                <?php 
+                  include '../../koneksi.php';
+                  $sql2 = "SELECT * FROM tb_kamera ORDER BY id ASC";
+                  $result2 = mysqli_query($koneksi, $sql2);
+                  while ($data2 = mysqli_fetch_assoc($result2)) {
+                    ?>
+                    <option value="<?=$data2['nama']?>"><?=$data2['nama']?></option>
+                  <?php
+                  }
+                  ?>
+                </select>
               </div>
               <!-- Date -->
               <div class="form-group">
@@ -105,7 +116,7 @@
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-primary">Simpan</button>
+            <button type="submit" name="tambah" value="TAMBAH" class="btn btn-primary">Simpan</button>
             </form>
         </div>
         </div>
