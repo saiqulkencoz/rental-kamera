@@ -17,5 +17,8 @@
     else if($_GET['page']=="kamera-edit"){
         include "../../page/kamera/kamera-edit.php";
     }
+    else if($_GET['page']=="bayar"){
+        include "../../page/pembayaran/pembayaran.php";
+    }
         
 ?>

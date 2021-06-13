@@ -90,10 +90,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="pages/kanban.html" class="nav-link">
+            <a href="index.php?page=bayar" class="nav-link">
               <i class="nav-icon fas fa-columns"></i>
               <p>
-                Kanban Board
+                Data Pembayaran
               </p>
             </a>
           </li>
