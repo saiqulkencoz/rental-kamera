@@ -20,5 +20,11 @@
     else if($_GET['page']=="bayar"){
         include "../../page/pembayaran/pembayaran.php";
     }
+    else if($_GET['page']=="bayar-edit"){
+        include "../../page/pembayaran/pembayaran-edit.php";
+    }
+    else if($_GET['page']=="bayar-delete"){
+        include "../../page/pembayaran/pembayaran-delete.php";
+    }
         
 ?>
