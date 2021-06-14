@@ -37,7 +37,7 @@
     <ul class="navbar-nav ml-auto">
     <li class="nav-item dropdown user-menu">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-          <img src="assets/dist/img/user2-160x160.jpg" class="user-image img-circle elevation-2" alt="User Image">
+          <img src="https://www.kindpng.com/picc/m/130-1300217_user-icon-member-icon-png-transparent-png.png" class="user-image img-circle elevation-2" alt="User Image">
           <span class="d-none d-md-inline"><?php session_start(); echo $_SESSION['nama']; ?></span>
         </a>
         <ul class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
@@ -63,10 +63,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="assets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="https://www.kindpng.com/picc/m/130-1300217_user-icon-member-icon-png-transparent-png.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block"><?php echo $_SESSION['nama']; ?></a>
         </div>
       </div>
 
@@ -75,7 +75,7 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
             <a href="index.php?page=kamera" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
+              <i class="nav-icon fas fa-camera-retro"></i>
               <p>
                 Data Kamera
               </p>
@@ -83,7 +83,7 @@
           </li>
           <li class="nav-item">
             <a href="index.php?page=sewa" class="nav-link">
-              <i class="nav-icon fas fa-calendar-alt"></i>
+              <i class="nav-icon fas fa-truck-loading"></i>
               <p>
                 Data Sewa
               </p>
@@ -91,7 +91,7 @@
           </li>
           <li class="nav-item">
             <a href="index.php?page=bayar" class="nav-link">
-              <i class="nav-icon fas fa-columns"></i>
+              <i class="nav-icon fas fa-money-check-alt"></i>
               <p>
                 Data Pembayaran
               </p>
@@ -134,7 +134,7 @@
 
   <!-- Main Footer -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+    <strong>Copyright &copy; 2021 Makmur Jaya Kamera.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 3.1.0
