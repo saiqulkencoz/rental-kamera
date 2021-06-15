@@ -30,7 +30,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+        <li><a href="index.php"><span class="glyphicon glyphicon-home"></span></a></li>
         <!-- <li><a href="#">Products</a></li>
         <li><a href="#">Stores</a></li>
         <li><a href="#">Contact</a></li> -->
