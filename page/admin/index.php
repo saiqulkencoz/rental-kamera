@@ -21,7 +21,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__wobble" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__wobble" src="../../images/mj.png" alt="Makmur Jaya Logo" height="60" width="60">
   </div>
 
   <!-- Navbar -->
@@ -37,7 +37,7 @@
     <ul class="navbar-nav ml-auto">
     <li class="nav-item dropdown user-menu">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-          <img src="https://www.kindpng.com/picc/m/130-1300217_user-icon-member-icon-png-transparent-png.png" class="user-image img-circle elevation-2" alt="User Image">
+          <img src="../../images/mj.png" class="user-image img-circle elevation-2" alt="User Image">
           <span class="d-none d-md-inline"><?php session_start(); echo $_SESSION['nama']; ?></span>
         </a>
         <ul class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
@@ -53,8 +53,8 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
-      <img src="assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <a href="" class="brand-link">
+      <img src="../../images/mj.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Makmur Jaya Kamera</span>
     </a>
 
@@ -63,10 +63,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="https://www.kindpng.com/picc/m/130-1300217_user-icon-member-icon-png-transparent-png.png" class="img-circle elevation-2" alt="User Image">
+          <img src="../../images/mj.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block"><?php echo $_SESSION['nama']; ?></a>
+          <?php echo $_SESSION['nama']; ?>
         </div>
       </div>
 

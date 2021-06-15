@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Login Admin MJC</title>
+    <link rel="icon" href="images/mj.png" type="image/mj">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -287,14 +288,14 @@
 
     <!-- Icon -->
     <div class="fadeIn first mb-3 mt-3">
-      <img src="#" id="icon" alt="User Icon" /> 
+      <img src="images/mj.png" id="icon" alt="User Icon"/> 
       <!-- gambare tambahno ya aku gak eruh :v -->
     </div>
 
     <!-- Login Form -->
     <form action="proses_login.php" method="POST">
-      <input type="text" class="fadeIn second" name="username" placeholder="USER">
-      <input type="password" class="fadeIn third" name="password" placeholder="Password">
+      <input type="text" class="fadeIn second" name="username" placeholder="USERNAME">
+      <input type="password" class="fadeIn third" name="password" placeholder="PASSWORD">
       <input type="submit" class="fadeIn fourth" name="login" value="LOGIN">
     </form>
 

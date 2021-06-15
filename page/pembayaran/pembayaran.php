@@ -50,6 +50,9 @@
                     </tr>
                   </tbody>
                 </table>
+                <form class="mt-3" action="../pembayaran/cetak-bayar.php">
+                  <button type="submit" class="btn btn-success">Cetak Data Pembayaran</button>
+                </form>
               </div>
               <!-- /.card-body -->
             </div>
