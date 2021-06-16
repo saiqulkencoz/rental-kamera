@@ -157,7 +157,7 @@
 </div>
 <hr>
 <div class="container text-center">    
-  <h3><b>Best Product Avilable</b></h3><br>  
+  <h3><b>Best Product Available</b></h3><br>  
   <div class="row">
     <div class="col-sm-4">
       <img src="daftar/canon1.png" class="img-responsive thumbnail " style="width:100%" alt="Image">
